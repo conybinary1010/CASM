@@ -30,7 +30,7 @@ def assemble_instructions(instruction, reg, value):
         machine_code.append(instruction_set[instruction])
         return machine_code
 
-    if reg == "r0":
+    elif reg == "r0":
         machine_code.append(reg_set[reg])
         return machine_code
     elif reg == "r1":
@@ -40,5 +40,7 @@ def assemble_instructions(instruction, reg, value):
         machine_code.append(reg_set[reg])
         return machine_code
 
+    elif value is hex:
+        machine_code.append(int(value, 16))
 
-print("macine code:", assemble_instructions("HALT", "r0, 0x00"))
+print("macine code:", assemble_instructions("HALT", "r0", "0x00"))
