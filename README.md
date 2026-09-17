@@ -9,7 +9,7 @@ I initially developed it for my 48xxCP CPU (48xxCony Processor) in the mist of u
 >Also, the 48xxCP is also under development, so don't be surprised if you do not see the repo yet
 
 
-'''asm
+'''assembly
    LOAD r0 0x02
    READ r0
    HALT
