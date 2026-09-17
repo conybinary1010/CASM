@@ -10,6 +10,7 @@ I initially developed it for my 48xxCP CPU (48xxCony Processor) in the mist of u
 
 
 '''
+
    LOAD r0 0x02
    READ r0
    HALT
