@@ -45,9 +45,9 @@ def assemble_instructions(instruction, reg, value):
         machine_code_reg.append(reg_set[reg])
         return machine_code_reg
 
-    elif value is hex:
+    elif value is hex and value is not NULL:
         machine_code_value.append(int(value, 16))
 
 print("macine code:", assemble_instructions("LOAD", NULL, NULL))
-print("macine code:", assemble_instructions(NULL, "r0", NULL))
-print("macine code:", assemble_instructions(NULL, NULL, "0x00"))
+print("macine code:", assemble_instructions(NULL, "r1", NULL))
+print("macine code:", assemble_instructions(NULL, NULL, "0x02"))
