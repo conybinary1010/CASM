@@ -14,5 +14,6 @@ I initially developed it for my 48xxCP CPU (48xxCony Processor) in the mist of u
    READ r0
    HALT
 ```
+# Intro
 
->
+Well, it first started off as a thought, after watching most of MattBatWings's videos, and some of his videos that talk about building an 8-bit computer in Minecraft, I thought to myself "Why not make my own 8-bit computer?", and that's how the journey began. From researching how assemblers and computers worked together, to relying on better error detecting systems for my code like using Copilot. So, from my PC to yours, I present to you "CASM".
